@@ -703,6 +703,7 @@ function JarvisOrb({
 }: {
   small?: boolean;
 }) {
+  const size = small ? "24px" : "48px";
   return (
     <div
       className={
@@ -712,7 +713,16 @@ function JarvisOrb({
       }
       aria-hidden="true"
     >
-      <span />
+      <img
+        src="/Jarvis_AI.png"
+        alt="Jarvis"
+        style={{
+          width: size,
+          height: size,
+          borderRadius: '50%',
+          objectFit: 'cover'
+        }}
+      />
     </div>
   );
 }
