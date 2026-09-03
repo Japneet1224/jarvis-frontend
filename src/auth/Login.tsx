@@ -1512,7 +1512,7 @@ export default function Login() {
           <div className="login-glass">
             <div className="login-logo">
               <div className="login-orb">
-                <span>J</span>
+                <img src="/Jarvis_AI.png" alt="Jarvis" style={{width: '60px', height: '60px'}} />
               </div>
             </div>
 
@@ -1729,7 +1729,7 @@ export default function Login() {
         <section className="jarvis-introduction">
           <div className="jarvis-brand">
             <div className="jarvis-orb">
-              <span />
+              <img src="/Jarvis_AI.png" alt="Jarvis" style={{width: '28px', height: '28px'}} />
             </div>
 
             <span className="jarvis-name">
