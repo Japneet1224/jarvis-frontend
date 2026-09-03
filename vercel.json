@@ -10,7 +10,31 @@
       "dest": "/assets/$1"
     },
     {
-      "src": "\\.(png|jpg|jpeg|gif|svg|ico|webp|css|js|woff|woff2|ttf|eot)$",
+      "src": "/(.*\\.png)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*\\.jpg)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*\\.jpeg)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*\\.gif)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*\\.svg)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*\\.ico)$",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*\\.webp)$",
       "dest": "/$1"
     },
     {
